@@ -5,7 +5,7 @@ import registerData from '../../fixtures/registerData.json'
 describe('test automation', ()=>{
 
 
-    it('register flow', ()=>{
+    it('Register flow', ()=>{
         registerObj.openURL()
         registerObj.enterFirstName(registerData.firstName)
         registerObj.enterLastName(registerData.lastName)

@@ -1,0 +1,14 @@
+{
+    "login": {
+        "username": "test.qa.cypress@yopmail.com",
+        "password": "Cypressnew123!!"
+    },
+
+    "product": {
+        "productName": "MacBook"
+    },
+    
+    "message": {
+        "successMessage": "Success: You have added MacBook to your shopping cart!"
+    }
+}
