@@ -1,4 +1,4 @@
-name: Sanity Build1
+name: Sanity Build2 (register)
 on: push
 jobs:
   cypress-run:

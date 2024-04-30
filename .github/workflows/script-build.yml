@@ -1,4 +1,4 @@
-name: Sanity Build1
+name: Sanity Build1 (add to cart)
 on: push
 jobs:
   cypress-run:
