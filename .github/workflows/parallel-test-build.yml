@@ -1,4 +1,4 @@
-name: Browser test build
+name: Browser test build - parallel
 on: push
 jobs:
   Add-ToCart-run:
@@ -16,7 +16,7 @@ jobs:
       - name: Cypress Test Report - Add To Cart
         uses: actions/upload-artifact@v4
         with:
-          name: Mochawesome HTML Report
+          name: Mochawesome HTML Report new1
           path: cypress/reports/html
 
   Reg-Flow-run:
@@ -34,6 +34,6 @@ jobs:
       - name: Cypress Test Report - Reg Flow
         uses: actions/upload-artifact@v4
         with:
-          name: Mochawesome HTML Report
+          name: Mochawesome HTML Report new2
           path: cypress/reports/html
 
